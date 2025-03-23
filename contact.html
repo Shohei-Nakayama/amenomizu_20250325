@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QSHL2B5868"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QSHL2B5868');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>あめのみづ鍼灸院</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/icon-192x192.png">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- ローディング画面 -->
+ <div id="loading">
+        <img class="spinner" src="images/loading.png" alt="">
+        </div>
+
+        <!--コンテンツ -->
+ <div class="container">
+    <header>
+        <a href="index.html">
+            <img src="images/IMG_8015.jpg" alt="" width="100%" height="250px">
+        </a>
+        
+                
+                <nav>
+                    <ul>
+                        <li><a href="/concept.html">コンセプト</a></li>
+                        <li><a href="/reserve.html">予約</a></li>
+                        <li><a href="/fee.html">料金</a></li><br>
+                        <li><a href="/access.html">アクセス</a></li>
+                        <li><a href="/contact.html">お問い合わせ</a></li>
+                        <li><a href="/me.html">私について</a></li><br>
+                        <li><a href="/writing.html">医術日誌</a></li>
+                        <li><a href="https://amenomizu.webflow.io">in English</a></li>
+                    </ul>
+                </nav><br>
+            </header>
+            <hr>
+    
+    <div class="contact-form">
+            <p class="caption">お問い合わせ</p>
+    
+     <form action="https://api.staticforms.xyz/submit" method="post">
+        <input 
+            type="hidden" 
+            name="accessKey" 
+            value="bf0d0e6d-45eb-4522-9145-eadfd121fe9a"
+            <!-- explain -->
+       
+    
+        <div class="item">
+                <label class="label">お名前</label>
+                <input type="text" class="inputs" name="name" />
+        </div>
+    
+        <div class="item">
+            <label class="label">メールアドレス</label>
+            <input type="email" class="inputs" name="email" required />
+        </div>
+    
+        <div class="item">
+            <label class="label">題名</label>
+            <input type="text" class="inputs" name="subject"> <!-- Optional -->
+        </div>
+        
+        
+        <div class="item">
+            <label class="label">ご質問</label>
+            <textarea name="message" class="inputs" placeholder="用件をご入力ください"  id=""></textarea>
+        </div>
+    <br>
+        <div class="button-area">
+            <input type="submit" value="送信" />
+            <input type="reset" value="リセット" />
+        </div>
+    </form>
+    
+    <br><br><br><br>
+    <p>LINEからもご連絡可能です<br>
+        <a href="https://lin.ee/2hFqgR4"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
+        
+           <br><br><br>
+        どなたさまも歓迎ですので、お気軽にご連絡ください。
+    </p>
+
+    
+
+    <br><br>
+</div>
+<style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+            font-size: 70px;
+            background: linear-gradient(transparent 70% , #87cefa 30%);
+            border-radius:90%;
+            color:lightsteelblue;
+            animation: fadeInBox 2s linear;
+        }
+        
+        @keyframes fadeInBox
+        {0%
+            {
+                opacity: 0;
+            }
+         100%
+            {
+                opacity: 1;
+            }
+        }
+
+
+.contact-form{
+    padding: 2vh 3vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.caption{
+    text-align: center;
+    font-size: 4vh;
+    margin-bottom: 2vh;
+    font-weight: bold;
+}
+
+form{
+    width: 90vh;
+    margin: 0 auto;
+}
+
+.item{
+ overflow: hidden;
+ margin-bottom:2vh;
+}
+
+.label{
+    float:left;
+    margin-right: 3vh;
+    width: 20vh;
+    border-left:2vh solid #499bf8;
+    padding-left: 3vh;
+}
+
+.inputs{
+    float: left;
+    width: 35vh;
+}
+
+input[type="text"],
+input[type="email"]{
+    border: solid 1px #aaa;
+    padding: 1vh;
+    font-size: 2vh;
+    border-radius: 5px;
+}
+
+textarea{
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 1vh;
+    height: 20vh;
+    width: 50vh;
+    font-size: 2.5vh;
+}
+
+.button-area{
+    text-align: center;
+}
+
+input[type="submit"]{
+    background-color: #538efa;
+    border: none;
+    padding:1vh 2vh;
+    color:white;
+    font: size 17px;
+    font-weight:bold;
+    border-radius: 5px;
+    margin: 0 1vh;
+    box-shadow: 1px 1px 3px black;
+    cursor:pointer;
+}
+
+input[type="reset"]{
+    background-color: #519cf2;
+    border: none;
+    padding:1vh 1vh;
+    color:white;
+    font: size 2vh;
+    font-weight:bold;
+    border-radius: 5px;
+    margin: 0 1vh;
+    box-shadow: 1px 1px 3px black;
+    cursor:pointer;
+}
+
+p{
+    text-align: center;
+}
+</style>
+
+</body>
+</html>
